@@ -6,7 +6,8 @@ stages {
 
 	stage('SCM') {
 		steps {
-			echo "git pull my code"
+			echo "git pull my code for java app"
+			git 'https://github.com/Kira-0007/simple-maven-app.git'
 		}
 	}
 
