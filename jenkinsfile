@@ -21,6 +21,11 @@ stages {
 			echo "test my code"
 		}
 	}
+	stage('Deploy to Prod') {
+		steps {
+			echo "Deploy to Production"
+		}
+	}
 
 }
 
